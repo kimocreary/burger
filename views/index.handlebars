@@ -1,6 +1,14 @@
+<div class="container">
+
+<div class="mx-auto" style="width: 200px;">
+
 <h1>Burgers</h1>
 
-<h2>Devoured Burgers</h2>
+</div>
+
+<p>Devoured Burgers</p>
+
+
 
 <ul>
     {{#each burgerData}}
@@ -23,8 +31,13 @@
 {{/each}} 
 
 
+
 <form action="/burger/create" method="POST">
     <input type="text" class="form-control" name="burger_name" value="" id="enter_text">
     <button type="submit" class="btn btn-primary" id="text-enter-button">Submit</button>
 </form>
-<p>Enter a burger you want to eat Click the "Submit" button.</p> 
+<p>Enter a burger you want to eat and Click the "Submit" button.</p> 
+
+
+
+</div>
